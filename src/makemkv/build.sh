@@ -8,8 +8,8 @@ export DEBIAN_FRONTEND=noninteractive
 
 SCRIPT_DIR="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 
-FFMPEG_VERSION=4.3.2
-FDK_AAC_VERSION=2.0.2
+FFMPEG_VERSION=7.1
+FDK_AAC_VERSION=2.0.3
 QT_VERSION=5.9.9
 
 FFMPEG_URL=https://ffmpeg.org/releases/ffmpeg-${FFMPEG_VERSION}.tar.xz
